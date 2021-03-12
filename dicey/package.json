@@ -1,0 +1,22 @@
+{
+  "name": "dicey",
+  "version": "1.0.0",
+  "description": "This lab will combine principles of HTML, CSS, JavaScript, Accessing/Creating/Modifying HTML elements, and Object Oriented Programming.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ken01888/Dicey-Business.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ken01888/Dicey-Business/issues"
+  },
+  "homepage": "https://github.com/ken01888/Dicey-Business#readme",
+  "dependencies": {
+    "typescript": "^4.2.3"
+  }
+}

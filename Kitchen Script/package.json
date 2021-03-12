@@ -1,0 +1,11 @@
+{
+  "name": "typescript_kitchensink",
+  "version": "1.0.0",
+  "description": "JavaScript Kitchen Sink The objective of this lab assignment is to practice using the fundamentals of JavaScript that were explored in lecture.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
