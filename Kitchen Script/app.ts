@@ -95,6 +95,7 @@ let getLength  =(word:string)=>  {
 }
 
 getLength('Hello World')
+
 getLength('Hello Worlds')
 
 

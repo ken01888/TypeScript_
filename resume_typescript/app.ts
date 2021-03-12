@@ -44,6 +44,7 @@ console.log("My Skills:");
 displaySkill("math",false);
 displaySkill("english",true);
 displaySkill("geometry",false);
+
 displaySkill("biology",true);
 
 
