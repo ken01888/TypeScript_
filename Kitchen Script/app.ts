@@ -4,15 +4,17 @@ console.log(myName);
 
 // creating a varible with the value of 50 representing the number of states in the U.S
 const numberOfState:number = 50;
-console.log(numberOfState)
+console.log<>(numberOfState)
 
 //adding 4+5
 let sum:number = 4+5
 console.log(sum)
 
-let sayHello = () =>{
-    alert('Hello World')
+let message:string = 'Hello World'
+let sayHello  = (a:string) =>{
+  alert(a)
 }
+sayHello(message)
 
 // function to validate age
 let checkAge = (name:string,age:number)=>{
@@ -78,13 +80,13 @@ let persons:People[]=[
 
 ]
 
-persons.forEach(person=>{
+persons.forEach((person:People)=>{
     console.log(`Hello my name is ${person.name} I'm ${person.age} years of age.`)
 })
 
 
 //checking the lenght of a word
-let getLength  =(word:string):void=>  {
+let getLength  =(word:string)=>  {
     if (word.length%2==0){
         console.log('The world is nice and even!')
     }else if (word.length%2==1){
